@@ -1,0 +1,37 @@
+/*
+  Kristen Maggs
+  10/21/20
+  Section AE - Dylan McKone
+
+  This is styles.css, a css file that gives index.html its simple style that allows the user's
+  focus to go to the rat images that can be added.
+*/
+
+body {
+  background-color: goldenrod;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  z-index: 0;
+}
+
+.color {
+  text-shadow: 2px 2px goldenrod;
+}
+
+#words {
+  background-color: gray;
+  text-align: center;
+  z-index: 1;
+  position: fixed;
+  border: 10px solid black;
+  padding: 20px;
+  width: 250px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  margin-left: -155px;
+  margin-top: -80px;
+}
